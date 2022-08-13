@@ -1,15 +1,21 @@
 # <img src="public/icons/icon_48.png" width="45" align="left"> Insights Snippets Extension
 
-My Chrome Extension
+Chrome extension that gives instant access to the CloudWatch Logs Insights snippets from [serverlessland.com/snippets](https://serverlessland.com/snippets)
 
 ## Features
 
-- Feature 1
-- Feature 2
+When you are on the CloudWatch Logs Insights page in the AWS console an extra context menu item is added with all insights snippets from serverlessland.
+
+![Demo](images/demo.gif)
 
 ## Install
 
-[**Chrome** extension]() <!-- TODO: Add chrome extension link inside parenthesis -->
+This has not yet been published. To install:
+
+* Clone the repo, run `npm install && npm run build` 
+* In your browser, go to chrome://extensions
+* Click `Load unpacked`
+* Browse to and select <project root>/build
 
 ## Contribution
 
