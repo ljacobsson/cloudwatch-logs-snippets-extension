@@ -1,7 +1,7 @@
 {
-  "name": "insights-snippets-extension",
+  "name": "reinvent-portal-extension",
   "version": "0.1.0",
-  "description": "Chrome extension that gives instant access to the CloudWatch Logs Insights snippets from serverlessland.com/snippets",
+  "description": "Making the re:invent portal better",
   "private": true,
   "scripts": {
     "watch": "webpack --mode=development --watch --config config/webpack.config.js",
@@ -17,8 +17,5 @@
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-merge": "^5.8.0"
-  },
-  "dependencies": {
-    "@octokit/rest": "^19.0.3"
   }
 }
