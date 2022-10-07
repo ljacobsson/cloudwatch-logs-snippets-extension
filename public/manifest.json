@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Re:invent Portal Extension",
-  "version": "0.0.1",
-  "description": "Making the re:invent portal better",
+  "name": "Insights Snippets Extension",
+  "version": "0.1.0",
+  "description": "Chrome extension to get instant access to the CloudWatch Logs Insights snippets from serverlessland.com/snippets",
   "icons": {
     "16": "icons/icon_16.png",
     "32": "icons/icon_32.png",
@@ -13,7 +13,7 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "Re:invent Portal Extension"
+    "default_title": "Insights Snippets Extension"
   },
   "permissions": [
     "storage", 
@@ -24,7 +24,7 @@
       "matches": [
         "<all_urls>"
       ],
-      "run_at": "document_idle",
+      "run_at": "document_end",
       "js": [
         "contentScript.js"
       ]
